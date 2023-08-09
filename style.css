@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  height: 400px;
+  background-image: url("images/peja.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.welcome-title {
+  background-color: rgb(48, 140, 171);
+  padding: 5px;
+  margin-bottom: 10px;
+}
+.welcome-text {
+  background-color: rgb(23, 23, 81);
+  padding: 5px;
+}
+main {
+  text-align: center;
+  background-color: rgb(229, 252, 244);
+  color: rgb(28, 28, 129);
+  padding-bottom: 25px;
+}
+main h2 {
+  padding: 25px;
+}
+#activities {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+article {
+  width: 250px;
+}
+
+article img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+article img,
+article h3,
+article p {
+  padding: 10px;
+}
+
+footer {
+  color: rgb(28, 28, 129);
+  margin: 40px;
+  display: flex;
+  justify-content: center;
+
+}
+.guide {
+  width: 400px;
+  height: 200px;
+  display: flex;
+  background-color: rgb(139, 209, 232);
+  border-bottom: 3px solid rgb(48, 140, 171);
+  padding: 10px;
+}
+.description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 10px;
+  text-align: center;
+}
